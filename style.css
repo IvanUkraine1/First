@@ -1,0 +1,193 @@
+*{
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  
+  header{
+    background: #42a414;
+    border-bottom: 1px solid black;
+  }
+  
+  body{
+    background: linear-gradient(90deg, rgba(162,255,150,1) 0%, rgba(231,254,69,1) 88%);
+    font-family: "Kanit";
+    font-weight: 500;
+  }
+  
+  .container {
+      width: 100%;
+      max-width: 1200px;
+      margin: 0px auto;
+      padding: 15px;
+  }
+  
+  .container:after{
+    content: '';
+    display: table;
+    clear: both;
+  }
+  
+  img{
+    height: 70px;
+    float: left;
+  }
+  
+  nav{ float: right; }
+  
+  nav a{
+    color: white;
+    text-decoration: none;
+    margin: 0px 10px;
+    font-family: 'Kanit';
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 70px;
+    padding: 20px;
+  }
+  
+  nav a:hover{
+    color: gray;
+    background: white;
+    border-radius: 20px;
+  }
+  
+  nav li{
+    display: inline-block;
+    padding: 0 5px;
+  }
+  
+  nav ul{
+    padding: 0px;
+    margin: 0px;
+  }
+  
+  nav ul li:last-child{
+    background: black;
+    border-radius: 10px;
+  }
+  
+  a {text-decoration: none;}
+  
+  .add_header{
+    background: #42a414;
+    border-bottom: 1px solid black;
+    text-align: center;
+  }
+  
+  .slogan{
+    font-size: 40px;
+    font-family: sans;
+    font-style: italic;
+    margin: 50px 0px;
+  }
+  
+  .button{
+    background: rgb(2, 147, 4);
+    font-size: 20px;
+    width: 150px;
+    text-align: center;
+    padding: 15px;
+    margin: 0 auto;
+    color: black;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    font-weight: 900; 
+  }
+  
+  .articles{
+    float: left;
+    width: 65%;
+    padding: 10px;
+  }
+  
+  .article{
+    padding: 20px;
+    margin: 10px 0;
+    border: 1px solid black;
+  }
+  
+  .article:after{
+    content: '';
+    display: table;
+    clear: both;
+  }
+  
+  .article_text{
+    float: left;
+    width: 500px;
+  }
+  
+  .heading{
+    font-size: 40px;
+  }
+  
+  .desc{
+    font-size: 20px;
+    color: rgba(0,0,0,0.9);
+  }
+  
+  .date{
+    font-size: 15px;
+    color: rgba(0,0,0,0.9);
+    margin-top: 5px;
+  }
+  
+  .art_img{
+    height: 150px;
+    width: 150px;
+    background-image: url(emporio.jpg);
+    float: right;
+  }
+  
+  .sidebar{
+    float: right;
+    border: 1px solid black;
+    width: 30%;
+    padding: 10px;
+  }
+  
+  .sidebar_img{
+    height: 150px;
+    width: 150px;
+    background-image: url(emporio.jpg);
+    margin: 10px 0px;
+  }
+  
+  h3{
+    margin-top: 10px;
+  }
+  
+  .footer{
+    background: #42a414;
+    border-top: 1px solid black;
+    height: 100px;
+  }
+  
+  .footer .desc{
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .write-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .write-container .input,
+  .write-container textarea {
+    width: 60%;
+  }
+  
+  input, textarea{
+    font-size: 20px;
+    padding: 8px;
+  }
+  
+  label{
+    text-align: center;
+  }
+    
+  

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Title</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@500;700;900&display=swap" rel="stylesheet"><body>
+</head>
+<body>
+  <header>
+    <div class="container"> 
+      <a href="index.html"><img src="ATB.png"></a>
+      <nav>
+        <ul>
+          <li><a href="index.html">Про нас</a></li>
+          <li><a href="write.html">Писати</a></li>
+          <li><a href="#">Контакти</a></li>
+          <li><a href="#">Увійти</a></li>
+        </ul>
+      </nav>
+    </div>  
+  </header>
+  <main>
+    <div class="container write-container">
+      <label class="input" for="Heading"><h2>Нова стаття: </h2><br></label>
+      <input class="input" id="Heading" type="text" placeholder="Заголовок">
+      <br><br>
+      <textarea class="input" placeholder="Опис" rows="10"></textarea>
+      <br>
+      <label class="input" for="upload"><h2>Завантажити зображення: </h2></label>
+      <input id="upload" type="file" name="photo" multiple accept="image/*,image/jpeg">
+      <br>
+      <input type="submit" value="Submit">
+    </div>  
+  </main>
+</body>
+</html>
